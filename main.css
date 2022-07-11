@@ -1,0 +1,219 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    overflow-y: scroll;
+}
+:root{
+    --dark-green: #1e3932;
+    --light-green:#d4e9e2;
+    --light-red:#f06464;
+    --primary-black-text:rgba(0, 0, 0, 0.87);
+    --pink:#fa91aa;
+    --mid-green:#007042;
+    --gray:rgba(0, 0, 0, .58)
+}
+
+.darkGreen{
+    background-color: var(--dark-green);
+}
+.lightGreen{
+    background-color: var(--light-green);
+}
+.lightRed{
+    background-color: var(--light-red);
+}
+.pink{
+    background-color: var(--pink);
+}
+.midGreen{
+    background-color: var(--mid-green);
+}
+.grayTxt{
+    color: var(--gray);
+}
+.blackTxt{
+    color: var(--primary-black-text);
+}
+#navigation{
+    flex: 1;
+    color: #000;
+}
+
+nav ul{
+    text-transform: uppercase;
+}
+#navBtnWhite{
+    border-color: rgba(0, 0, 0, 0.5);
+    color:var(--primary-black-text) ;
+}
+#navBtnBlack{
+    border-color:white;
+    color: white;
+    background-color:var(--primary-black-text) ;
+}
+nav a:hover{
+    color: green;
+}
+#locationIcon{
+    transform: scale(1.3);
+}
+.seperator{
+    height: 2px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+a{
+    display: block;
+    height: fit-content;
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style:none ;
+}
+
+.btn{
+    border: 1px solid;
+    border-radius: 30px;
+    width: max-content;
+    
+}
+.btn:hover{
+    opacity: 0.85;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+.sectionBtn{
+    font-weight: 500;
+    color: inherit;
+    border-color: inherit;
+    letter-spacing: 1px;
+    margin-inline: auto;
+}
+.sectionBtn:not(.hovBlack):hover{
+    background-color: rgba(255,255,255,0.1);
+}
+.hovBlack:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.image{
+    height: 100%;
+width: 100%;
+}
+.clrWhite{
+    color: white;
+}
+.clrBlack{
+color: #1e3932;
+}
+#summer{
+    height: 80%;
+    width: 100%;
+}
+.box{
+    width: 100%;
+    gap: 0;
+}
+
+.sectionText{
+    line-height: 1.5;
+}
+.gridReverse{
+    order: 2;
+}
+#subTxt{
+    padding-inline:30rem ;
+}
+.footerDiv{
+    max-width: 13rem;
+}
+.footerDiv:not(.footerDiv:first-child){
+    margin-left: 4rem;
+}
+.footerDiv a:hover{
+    color: var(--primary-black-text);
+}
+
+.icon{
+    height: 35px;
+    width: 35px;
+    z-index: 10;
+    border-radius: 50%;
+    
+}
+.iconLink{
+
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    outline-color: rgba(0, 0, 0, 0.1);
+    outline-width: 0px;
+    outline-style: solid;
+    outline-offset: -3px;
+    margin-right: 0.75rem;
+}
+.iconLink:hover{
+    animation: outline 0.3s ease-in  1 forwards;
+}
+@keyframes outline {
+    from{
+        outline-width: 0px;
+    }
+    to{
+        outline-width: 10px;
+    }
+}
+
+.blackLine{
+    height: 100%;
+    width:2px;
+    background-color: var(--primary-black-text);
+}
+#notations a:hover{
+    text-decoration: underline;
+}
+/*ipad*/
+@media screen and (max-width:850px) {
+    #footerLinks{
+        display: grid!important;
+        grid-template-columns: 1fr;
+    }
+    .footerDiv{
+        margin: 0!important;
+        margin-top: 1rem!important;
+    }
+
+nav{
+    width: 100%;
+
+}
+
+.font50{
+    font-size: 28px !important;
+}
+.font24{
+    font-size: 24px;
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    outline-offset: -12px!important;
+}
+#subTxt{
+    padding-inline: 10rem;
+}
+p .MI48{
+    padding-inline: 0rem!important;
+}
+.sectionText{
+    padding-inline: 1.5rem!important;
+}
+.image{
+    height: 80%;
+}
+.box{
+    padding: 0rem;
+    gap: 0;
+}
+}

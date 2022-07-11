@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*paddings*/
+
+.PI8{
+    padding-inline: 0.5rem;
+}
+.PI16{
+    padding-inline: 1rem;
+}
+.PI24{
+    padding-inline: 1.5rem;
+}
+.PI32{
+    padding-inline: 2rem;
+}
+.PI40{
+    padding-inline: 2.5rem;
+}
+.PI48{
+    padding-inline: 3rem;
+}
+.PB8{
+    padding-block: 0.5rem;
+}
+.PB16{
+    padding-block: 1rem;
+}
+.PB24{
+    padding-block: 1.5rem;
+}
+.PB32{
+    padding-block: 2rem;
+}
+.PB40{
+    padding-block: 2.5rem;
+}
+.PB48{
+    padding-block: 3rem;
+}
+.PT8{
+padding-top: 0.5rem;
+}
+.PT16{
+    padding-top: 1rem;
+}
+.PT24{
+    padding-top: 1.5rem;
+}
+.PT32{
+    padding-top: 2rem;
+}
+.PT40{
+    padding-top: 2.5rem;
+}
+.PT48{
+    padding-top: 3rem;
+}
+.Pbot8{
+padding-bottom: 0.5rem;
+}
+.Pbot16{
+    padding-bottom: 1rem;
+}
+.Pbot24{
+    padding-bottom: 1.5rem;
+}
+.Pbot32{
+    padding-bottom: 2rem;
+}
+.Pbot40{
+    padding-bottom: 2.5rem;
+}
+.Pbot48{
+    padding-bottom: 3rem;
+}
+.PL8{
+padding-Left: 0.5rem;
+}
+.PL16{
+    padding-Left: 1rem;
+}
+.PL24{
+    padding-Left: 1.5rem;
+}
+.PL32{
+    padding-Left: 2rem;
+}
+.PL40{
+    padding-Left: 2.5rem;
+}
+.PL48{
+    padding-Left: 3rem;
+}
+.PR8{
+padding-right: 0.5rem;
+}
+.PR16{
+    padding-right: 1rem;
+}
+.PR24{
+    padding-right: 1.5rem;
+}
+.PR32{
+    padding-right: 2rem;
+}
+.PR40{
+    padding-right: 2.5rem;
+}
+.PR48{
+    padding-right: 3rem;
+}
+
+/*
+Margins
+*/
+.MI8 {
+    margin-inline: 0.5rem;
+}
+
+.MI16 {
+    margin-inline: 1rem;
+}
+
+.MI24 {
+    margin-inline: 1.5rem;
+}
+
+.MI32 {
+    margin-inline: 2rem;
+}
+
+.MI40 {
+    margin-inline: 2.5rem;
+}
+
+.MI48 {
+    margin-inline: 3rem;
+}
+
+.MB8 {
+    Margin-block: 0.5rem;
+}
+
+.MB16 {
+    Margin-block: 1rem;
+}
+
+.MB24 {
+    Margin-block: 1.5rem;
+}
+
+.MB32 {
+    Margin-block: 2rem;
+}
+
+.MB40 {
+    Margin-block: 2.5rem;
+}
+
+.MB48 {
+    Margin-block: 3rem;
+}
+
+.MT8 {
+    Margin-top: 0.5rem;
+}
+
+.MT16 {
+    Margin-top: 1rem;
+}
+
+.MT24 {
+    Margin-top: 1.5rem;
+}
+
+.MT32 {
+    Margin-top: 2rem;
+}
+
+.MT40 {
+    Margin-top: 2.5rem;
+}
+
+.MT48 {
+    Margin-top: 3rem;
+}
+
+.Mbot8 {
+    margin-bottom: 0.5rem;
+}
+
+.Mbot16 {
+    margin-bottom: 1rem;
+}
+
+.Mbot24 {
+    margin-bottom: 1.5rem;
+}
+
+.Mbot32 {
+    margin-bottom: 2rem;
+}
+
+.Mbot40 {
+    margin-bottom: 2.5rem;
+}
+
+.Mbot48 {
+    margin-bottom: 3rem;
+}
+
+.ML8 {
+    margin-Left: 0.5rem;
+}
+
+.ML16 {
+    margin-Left: 1rem;
+}
+
+.ML24 {
+    margin-Left: 1.5rem;
+}
+
+.ML32 {
+    margin-Left: 2rem;
+}
+
+.ML40 {
+    margin-Left: 2.5rem;
+}
+
+.ML48 {
+    margin-Left: 3rem;
+}
+
+.MR8 {
+    margin-right: 0.5rem;
+}
+
+.MR16 {
+    margin-right: 1rem;
+}
+
+.MR24 {
+    margin-right: 1.5rem;
+}
+
+.MR32 {
+    margin-right: 2rem;
+}
+
+.MR40 {
+    margin-right: 2.5rem;
+}
+
+.MR48 {
+    margin-right: 3rem;
+}
+
+/*
+fonts
+*/
+
+.font14{
+    font-size: 0.875rem;
+}
+.font18{
+    font-size:1.125rem;
+}
+
+.font20{
+    font-size: 1.25rem;
+}
+.font22{
+    font-size: 1.375rem;
+}
+.font24{
+    font-size: 1.5rem;
+}
+.font28{
+    font-size: 1.75rem;
+}
+.font32{
+    font-size: 2rem;
+}
+.font36{
+    font-size: 2.25rem;
+}
+.font40{
+    font-size: 2.5rem;
+}
+.font48{
+    font-size: 3rem;
+}
+.font50{
+font-size: 3.125rem;
+}
+.font52{
+    font-size: 3.25rem;
+}
+.weight400{
+    font-weight: 400;
+}
+.weight500{
+    font-weight: 500;
+}
+.weight600{
+    font-weight: 600;
+}
+.weight700{
+    font-weight: 700;
+}
+.weight800{
+    font-weight: 800;
+}
+.italic{
+    font-style:italic;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.txtCtr{
+    text-align: center;
+}
+.txtLeft{
+    text-align: left;
+}
+.txtRight{
+    text-align: right;
+}
+
+
+/*flexbox*/
+[class^="flex"]{
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+.justCtr{
+    justify-content: center;
+}
+.justEnd{
+    justify-content: flex-end;
+}
+.justBtw{
+    justify-content: space-between;
+}
+.justAround{
+    justify-content: space-around;
+}
+.justEven{
+    justify-content:space-evenly ;
+}
+
+.alignCtr{
+    align-items: center;
+}
+.alignstr{
+    align-items: flex-start;
+}
+.alignsEnd{
+    align-items: flex-end;
+}
+.alignBase{
+    align-items: baseline;
+}
+.placeCtr{
+    justify-content: center;
+    align-items: center;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+.flexColRev{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.flexRowRev{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.grid {
+    display: grid;
+}
+.col2{
+    grid-template-columns: repeat(2,1fr);
+}
+.col2Auto{
+    grid-template-columns: repeat(2,auto);
+}
+.col3{
+    grid-template-columns: repeat(3,1fr);
+}
+.col3Auto{
+    grid-template-columns: repeat(3,auto);
+}
+.col4{
+    grid-template-columns: repeat(4,1fr);
+}
+.col4Auto{
+    grid-template-columns: repeat(4,auto);
+}
+.row2{
+    grid-template-rows: repeat(2,1fr);
+}
+.row2Auto{
+    grid-template-rows: repeat(2,auto);
+}
+.row3{
+    grid-template-rows: repeat(3,1fr);
+}
+.row3Auto{
+    grid-template-rows: repeat(3,auto);
+}
+.row4{
+    grid-template-rows: repeat(4,1fr);
+}
+.row4Auto{
+    grid-template-rows: repeat(4,auto);
+}
+.gridCtr{
+    place-items: center;
+}
+
